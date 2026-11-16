@@ -125,7 +125,7 @@ export class Bot {
     if (this.health <= 0) {
       this.health = 0;
       this.alive = false;
-      this.deaths += 1;
+      // deaths are counted once, centrally, by the kill feed in main.js
     }
     return applied;
   }
