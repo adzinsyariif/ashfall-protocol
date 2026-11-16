@@ -315,17 +315,17 @@ export function createWorld(scene) {
   // --- spawns ---------------------------------------------------------------
   const spawns = {
     ember: [
-      [-50, 0], [-51, -4], [-51, 4], [-47, -3], [-47, 3],
+      [-53, 0], [-53, -5], [-53, 5], [-50, -7], [-50, 7],
     ].map(([x, z]) => new THREE.Vector3(x, 0, z)),
     sable: [
-      [50, 0], [51, -4], [51, 4], [47, -3], [47, 3],
+      [53, 0], [53, -5], [53, 5], [50, -7], [50, 7],
     ].map(([x, z]) => new THREE.Vector3(x, 0, z)),
   };
 
   // --- waypoint graph -------------------------------------------------------
   const wp = {};
   function node(name, x, z, links) { wp[name] = { name, pos: new THREE.Vector3(x, 0, z), links }; }
-  node('e_spawn', -44, 0, ['e_stage']);
+  node('e_spawn', -40, -8, ['e_stage']);
   node('e_stage', -34, 0, ['e_spawn', 'mid_w', 'n_w', 's_w']);
   node('mid_w', -18, 0, ['e_stage', 'mid_n', 'mid_s']);
   node('mid_n', -2, -11, ['mid_w', 'mid_e', 'link_n']);

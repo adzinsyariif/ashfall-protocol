@@ -948,7 +948,7 @@ if (SHOT) {
     const s = b.team === 'ember' ? world.spawns.ember[i % 5] : world.spawns.sable[i % 5];
     b.reset(s, b.team === 'ember' ? -Math.PI / 2 : Math.PI / 2, world);
   });
-  player.pos.set(-50, 0, 0);
+  player.pos.set(-53, 0, 0);
   let last = performance.now();
   let acc = 0;
   (function frame(now) {
