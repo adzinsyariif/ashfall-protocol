@@ -1,5 +1,11 @@
 # ASHFALL PROTOCOL
 
+[![make.fun · threejs-fps-02](https://make.fun/badge/threejs-fps-02.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![rank](https://make.fun/badge/threejs-fps-02/adzinsyariif/ashfall-protocol/rank.svg)](https://make.fun/bounty/threejs-fps-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![reward](https://make.fun/badge/threejs-fps-02/adzinsyariif/ashfall-protocol/reward.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+
+An entry for the make.fun bounty [“Make the best three.js tactical FPS”](https://make.fun/bounty/threejs-fps-02).
+
 A round-based tactical FPS for the browser, built with [three.js](https://threejs.org) — Counter-Strike-style structure, entirely original map, art, sounds and names. No build step, no network requests: open it and play.
 
 **Ember Watch** (attack) assaults a dust-choked industrial compound held by the **Sable Guard** (defence). Win rounds by eliminating the other team — or plant the **breach charge** at Site A or B and hold until it detonates. The Guard wins by running out the clock or defusing. First to **7 rounds** takes the match.
